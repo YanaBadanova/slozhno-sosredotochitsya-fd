@@ -13,4 +13,31 @@
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+  background-image: url('../images/cover-image-light.png');
+  --bg-color: #f1b2ce;
+  --accent-color: #ff8dcb;
+  --pseudo-element-color: transparent;
+  --hover-border-color: rgba(50, 49, 45, 0.4);
+  --article-heading-color: #353430;
+  --article-heading-bg-color: #ff8dcb;
+  --title-color: #ffc2e6;
+  --title-shadow-color: #ff0070;
+  --section-title-color: #353430;
+  --text-color: #353430;
+}
+
+@media (prefers-color-scheme: light) {
+  .page {
+    background-image: url('../images/cover-image-light.png');
+    --bg-color: #f1b2ce;
+    --accent-color: #ff8dcb;
+    --pseudo-element-color: transparent;
+    --hover-border-color: rgba(50, 49, 45, 0.4);
+    --article-heading-color: #353430;
+    --article-heading-bg-color: #ff8dcb;
+    --title-color: #ffc2e6;
+    --title-shadow-color: #ff0070;
+    --section-title-color: #353430;
+    --text-color: #353430;
+  }
 }
