@@ -124,6 +124,8 @@
 }
 
 .title-decor {
+  font-size: 18px;
+  line-height: 1.3;
   color: var(--article-heading-color, #000028);
   background-color: var(--accent-color, #ff0070);
 }
@@ -195,13 +197,11 @@
   text-decoration: none;
 }
 
-.content__link:hover {
-  border-block-end: 2px solid currentColor;
-  text-decoration: underline solid currentColor;
+.link:hover {
+  border-block-end: 1px solid currentColor;
 }
 
-.content__link:focus {
-  padding: 4px;
+.link:focus {
   border: 1px solid currentColor;
 }
 
