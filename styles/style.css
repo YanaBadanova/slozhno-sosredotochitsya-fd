@@ -142,7 +142,7 @@
   font-size: 18px;
   color: var(--section-title-color);
   font-weight: 700;
-  line-height: 24px;
+  line-height: 23.4px;
 }
 
 .section__article {
@@ -162,6 +162,7 @@
 .section-recommendation__article-title {
   font-size: 18px;
   font-weight: 400;
+  height: 23px;
 }
 
 .section-gallery {
