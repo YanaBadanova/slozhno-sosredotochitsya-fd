@@ -191,10 +191,12 @@
 
 .link {
   text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
+  text-decoration: none;
 }
 
 .content__link:hover {
   border-block-end: 2px solid currentColor;
+  text-decoration: underline solid currentColor;
 }
 
 .content__link:focus {
@@ -239,19 +241,17 @@
   .main {
     padding: 60px 20px;
     gap: 80px;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
   }
 
   .section-focus,
   .section-recommendation {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 2fr;
     gap: 20px;
   }
 
-  .section__article {
-    grid-column: span 2;
+  .section-recommendation__title, section-focus__title {
+    grid-column: 1;
   }
 
   .section-concentration {
