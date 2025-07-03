@@ -21,7 +21,7 @@
   --article-heading-color: rgba(53, 52, 48, 1);
   --article-heading-bg-color: rgba(255, 141, 203, 1);
   --title-color: #ffc2e6;
-  --title-shadow-color: #ff0070;
+  --title-shadow-color: rgba(255, 141, 203, 1);
   --section-title-color: rgba(53, 52, 48, 1);
   --text-color: rgba(53, 52, 48, 1);
 }
@@ -36,7 +36,7 @@
     --article-heading-color: rgba(53, 52, 48, 1);
     --article-heading-bg-color: rgba(255, 141, 203, 1);
     --title-color: #ffc2e6;
-    --title-shadow-color: #ff0070;
+    --title-shadow-color: rgba(255, 141, 203, 1);
     --section-title-color: rgba(53, 52, 48, 1);
     --text-color: rgba(53, 52, 48, 1);
   }
